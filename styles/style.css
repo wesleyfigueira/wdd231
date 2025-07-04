@@ -54,6 +54,11 @@ nav ul li a {
   text-decoration: none;
   font-weight: bold;
 }
+nav ul li a:hover{
+    color: #333333;
+    
+
+}
 
 main {
   display: grid;
