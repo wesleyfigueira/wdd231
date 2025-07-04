@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+:root {
+  --primary-color: #2F80ED;
+  --background-color: #ffffff;
+  --text-color: #333333;
+  --card-background: #f8f8f8;
+  --border-color: #ddd;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+  
+  
+}
+
+
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: var(--background-color);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+nav {
+  background-color: var(--primary-color);
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0.5rem 1rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 3rem;
+  padding: 2rem;
+  flex-grow: 1;
+}
+
+.card {
+  background-color: var(--card-background);
+  padding: 1.5rem;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.card h2 {
+  padding-bottom: 1rem;
+}
+
+.card p {
+  padding-top: 1rem;
+  text-align: justify;
+}
+
+.card img {
+  padding: 1rem 0 0 0;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.secondTitle{
+
+ background-color: var(--primary-color);
+ color: white;
+ text-align: center;
+ padding: 0.8rem 0;
+ font-size: 1rem;
+ font-weight: bold;
+ 
+}
+
+.pessoal{
+    align-items: center;
+    display: block;
+    text-align: center;
+    
+}
+.pessoal a{
+    padding-left: 3rem;
+}
+
+.pessoal svg {
+    color: black;
+  }
+
+#total-credits{
+    text-align: center;
+    align-items: center;
+    display: block;
+}
+div {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  
+}
+
+div button {
+  flex: 1;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.8rem 0;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+div button:hover {
+  background-color: #1c5fbd;
+}
+
+div button:focus {
+  outline: 2px solid #1c5fbd;
+  outline-offset: 2px;
+}
+
+#total-credits {
+  padding: 1rem;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+#courses-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 0.5rem;
+  padding: 1rem;
+}
+
+.course-card {
+  
+  min-height: 80px;
+  background-color: var(--background-color);
+  border: 2px solid var(--primary-color);
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.course-card h3 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+}
+
+.course-card.completed {
+  background-color: #d1e7dd;
+  border-color: #0f5132;
+  color: #0f5132;
+  padding-bottom: 1rem;
+}
+
+footer {
+  background-color: var(--primary-color);
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+  flex-shrink: 0;
+}
+
+
+@media (max-width: 767px) {
+  main {
+    grid-template-columns: 1fr;
+    padding: 1rem;
+    gap: 1.5rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    display: flex;
+    background-color: var(--primary-color);
+    padding: 1rem;
+  }
+
+  nav ul li {
+    margin: 0.5rem 0;
+  }
+
+  nav {
+    position: static;
+  }
+
+    .pessoal svg {
+    width: 40px;
+    height: 40px;
+    color: black;
+  }
+
+
+}
