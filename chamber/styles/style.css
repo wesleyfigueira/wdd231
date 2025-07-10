@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+
+
+:root {
+  --primary-color:#0551ad;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: var(--primary-color);
+}
+
+
+header {
+  background-color: var(--primary-color);;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+section{
+    padding: 2rem;
+}
+
+.view-toggle {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.view-toggle button {
+  background-color: var(--primary-color);;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: var(--primary-color) 1px solid;
+}
+
+.view-toggle button:hover {
+  background-color: #fff;
+  border:  var(--primary-color) 1px solid;
+  color: var(--primary-color);
+}
+
+
+#members.grid-view {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.member-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.member-card img {
+  width: 100%;     
+  height: 150px;
+  border-radius: 5px;
+  display: block;
+}
+
+.member-card h3 {
+  margin: 0.5rem 0;
+}
+
+.member-card p {
+  font-size: 0.9rem;
+  color: var(--primary-color);;
+  margin: 0.2rem 0;
+  
+}
+.member-card a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+#members.list-view {
+  display: block;
+}
+
+#members.list-view .member-card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+#members.list-view .member-card img {
+  display: none;
+}
+
+#members.list-view .member-info {
+  margin-left: 1rem;
+}
+
+
+footer {
+  background-color: var(--primary-color);;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+  
+  width: 100%;
+  bottom: 0;
+}

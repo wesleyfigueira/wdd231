@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Restaurante Mar Azul",
+    "address": "Av. Boa Viagem, 1234",
+    "phone": "(81) 98765-4321",
+    "website": "https://www.tripadvisor.com/LocationPhotoDirectLink-g189167-d1013220-i23738372-Restaurante_Mar_Azul-Funchal_Madeira_Madeira_Islands.html",
+    "image": "https://media-cdn.tripadvisor.com/media/photo-s/01/6a/38/04/restaurante-mar-azul.jpg",
+    "membership": 3,
+    "email": "contato@marazul.com"
+  },
+  {
+    "name": "Loja TecnoNet",
+    "address": "Rua das Flores, 567",
+    "phone": "(81) 91234-5678",
+    "website": "https:www.tecnonetpe.com.br",
+    "image": "https://internet.tecnonetpe.com.br/wp-content/uploads/2024/10/loja-tecnonet-foto-2.png",
+    "membership": 2,
+    "email": "suporte@tecnonetpe.com"
+  },
+  {
+    "name": "Academia BodyTech",
+    "address": "Av. Conselheiro Aguiar, 890",
+    "phone": "(81) 99876-5432",
+    "website": "https:www.bodytech.com.br",
+    "image": "https://assets-cdn.wellhub.com/images/?su=https%3A%2F%2Fimages.partners.gympass.com%2Fimage%2Ffilename%2F2453437%2Flg_qtNT26BVN5l7ssmAVcr-ZltXgwCh8N5h.jpeg&h=280",
+    "membership": 1,
+    "email": "contato@bodytech.com"
+  },
+  {
+    "name": "Atacadão do Papel",
+    "address": "Rua da Paz, 234",
+    "phone": "(81) 92345-6789",
+    "website": "https:www.atacadaomec.com.br",
+    "image": "https://cdn.dooca.store/129177/files/image-6.png",
+    "membership": 2,
+    "email": ".com"
+  },
+  {
+    "name": "Clinical Center",
+    "address": "Av. Boa Viagem, 345",
+    "phone": "(81) 97654-3210",
+    "website": "https:www.clinicalcenter.com.br",
+    "image": "https://i0.wp.com/www.terramagazine.com.br/wp-content/uploads/2023/11/Clinical-Center-em-Boa-Viagem-Divulgacao.jpg?fit=1000%2C462&ssl=1",
+    "membership": 3,
+    "email": "contato@clinical.com"
+  },
+  {
+    "name": "Cafeteria",
+    "address": "Rua do Comércio, 78",
+    "phone": "(81) 93456-7890",
+    "website": "https:www.cafeteria.com",
+    "image": "https://duogourmet-images.s3.us-east-2.amazonaws.com/restaurants/dn6lu39cp2/cover.jpg",
+    "membership": 1,
+    "email": "contato@.com"
+  },
+  {
+    "name": "Seaway",
+    "address": "Av. Dantas Barreto, 1020",
+    "phone": "(81) 94567-8901",
+    "website": "https:www.seaway.com.br",
+    "image": "https://www.seaway.com.br/_next/image?url=%2Fimgs%2Fcompany%2Fstores%2Floja_recife_2_01.jpg&w=3840&q=100",
+    "membership": 2,
+    "email": "contato@estilounico.com"
+  }
+]
