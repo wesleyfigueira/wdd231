@@ -35,6 +35,7 @@ function displayMembers(members) {
         <p>${member.address}</p>
         <p>${member.phone}</p>
         <p><a href="${member.website}" target="_blank" rel="noopener noreferrer">Website</a></p>
+       
       </div>
     `;
     membersContainer.appendChild(card);
