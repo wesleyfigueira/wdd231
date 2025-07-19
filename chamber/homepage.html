@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recife Chamber of Commerce</title>
+  <link rel="stylesheet" href="styles/homepage.css" />
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" style="width: 100px;" alt="Recife Chamber of Commerce" />
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Discover</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="https://blog.blablacar.com.br/wp-content/uploads/2023/10/recife-pe.webp" style="height: 400px" alt="Scalable, responsive hero image" />
+    
+  </section>
+
+  <main>
+    <h1>Home</h1>
+    <section class="highlights">
+    <div class="card">
+        <h2>Events</h2>
+        <hr>
+        <p>Upcoming local events will appear here.</p>
+    </div>
+
+    <div class="card">
+        <h2>Current Weather</h2>
+        <hr>
+        <h2 id="town" ></h2>
+        <p id="temperature"></p>
+    </div>
+
+    <div class="card">
+        <h2>Weather Forecast</h2>
+        <hr>
+        <div id="forecast">
+        Loading Weather...
+        </div>
+    </div>
+    </section>
+
+
+    <section id="member-cards" class="business-cards">
+
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <p><strong>Recife Chamber of Commerce</strong><br>
+        Rua Lima Campos nº10<br>
+        Recife, Pernambuco<br>
+        info@recife.org<br>
+        (81) 98755-2300</p>
+    </div>
+    <div class="social">
+      <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.png" alt="YouTube"></a>
+      <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.png" alt="Twitter"></a>
+      <a href="https://www.linkedin.com/" target="_blank"><img src="images/linkedin.png" alt="LinkedIn"></a>
+    </div>
+    <div>
+      <p>WDD231 Class Project<br>Wesley Figueira<br>&copy; 2025 Recife Chamber<br>Last Modified: <span id="last-modified"></span></p>
+    </div>
+  </footer>
+
+  <script src="scripts/homepage.js"></script>
+</body>
+</html>
