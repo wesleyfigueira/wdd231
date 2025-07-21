@@ -6,10 +6,10 @@ const temperature = document.querySelector('#temperature');
 
 
 const mykey ="61b350926d24936d9a6ac4c071bf1c6a";
-const mylat ="8.0578";
-const mylong = "34.8829";
+const mylat ="80578";
+const mylong = "348829";
 
-const myURL = `//api.openweathermap.org/data/3.0/onecall?lat=${mylat}&lon=${mylong}&exclude={part}&appid=${mykey}`
+const myURL = `//api.openweathermap.org/data/3.0/onecall?lat=${mylat}&lon=${mylong}&exclude=&appid=${mykey}`
 
 
 async function apiFetch() {
